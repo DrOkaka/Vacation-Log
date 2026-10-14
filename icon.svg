@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sunsetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#020617"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="url(#sunsetGrad)" opacity="0.95"/>
+  <circle cx="256" cy="200" r="85" fill="url(#sunGlow)"/>
+  <!-- Mountain & Sea Wave Silhouette -->
+  <path d="M48 410 C120 340, 180 370, 256 320 C340 260, 420 320, 464 300 L464 450 C464 472, 446 490, 424 490 L88 490 C66 490, 48 472, 48 450 Z" fill="#0f172a" opacity="0.85"/>
+  <path d="M48 430 C150 390, 240 430, 340 380 C400 350, 430 360, 464 350 L464 450 C464 472, 446 490, 424 490 L88 490 C66 490, 48 472, 48 450 Z" fill="#020617"/>
+  <!-- Camera / Sparkle Accent -->
+  <circle cx="360" cy="140" r="14" fill="#ffffff" opacity="0.9"/>
+  <path d="M256 120 L262 145 L287 151 L262 157 L256 182 L250 157 L225 151 L250 145 Z" fill="#ffffff"/>
+  <!-- Palm silhouette -->
+  <path d="M210 390 Q225 310 215 240 Q218 200 240 180" stroke="#f8fafc" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M240 180 Q210 160 170 170 M240 180 Q190 190 165 210 M240 180 Q260 155 300 165 M240 180 Q275 185 305 205 M240 180 Q245 150 250 135" stroke="#f8fafc" stroke-width="7" stroke-linecap="round" fill="none"/>
+</svg>

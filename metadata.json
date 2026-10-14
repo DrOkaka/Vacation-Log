@@ -1,0 +1,10 @@
+{
+  "name": "VacationLog AI",
+  "description": "Smart vacation journal with Gemini image analysis, warm summer glow filter, reflection push reminders, and Instagram Story generator.",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
